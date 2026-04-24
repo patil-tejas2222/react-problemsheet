@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
-  const api = import.meta.env.VITE_API_URL; // 👈 already correct
+  const api = "https://dummyjson.com";// 👈 already correct
    console.log(import.meta.env.VITE_API_URL);
   const [products, setProducts] = useState([]);
   const [status, setStatus] = useState('loading');
